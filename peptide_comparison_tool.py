@@ -4,7 +4,7 @@ import pandas as pd
 pathTable1 = r"D:\Fuat\Med_4_Probe.xlsx"
 pathTable2 = r"D:\Fuat\Tabelle_Main.xlsx"
 
-pathOut = r"C:\Users\felix\Desktop\fuatTest\resultComparison.xlsx"
+pathOut = r"C:\Users\felix\Desktop\fuatTest\result.xlsx"
 
 table1 = pd.read_excel(pathTable1)
 table2 = pd.read_excel(pathTable2)
