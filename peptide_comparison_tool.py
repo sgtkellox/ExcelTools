@@ -1,10 +1,10 @@
 import pandas as pd
 #from openpyxl import load_workbook
 
-pathTable1 = r"E:\Fuat\fuatsTableTest.xlsx"
-pathTable2 = r"E:\Fuat\supp3short.xlsx"
+pathTable1 = r"D:\Fuat\Med_4_Probe.xlsx"
+pathTable2 = r"D:\Fuat\Tabelle_Main.xlsx"
 
-pathOut = r"C:\Users\felix\Desktop\fuatTest\result.xlsx"
+pathOut = r"C:\Users\felix\Desktop\fuatTest\resultComparison.xlsx"
 
 table1 = pd.read_excel(pathTable1)
 table2 = pd.read_excel(pathTable2)
