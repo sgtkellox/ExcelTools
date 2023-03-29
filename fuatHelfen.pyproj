@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b5cfab43-c373-47cd-8dd4-e4ce2f1a08c7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>spearman.py</StartupFile>
+    <StartupFile>peptide_comparison_tool.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ksTest_tool.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mann_withney_u.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="spearman.py" />
